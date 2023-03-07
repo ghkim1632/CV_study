@@ -10,7 +10,10 @@
 ### 스터디 방식
 
 - Classifier, Detection, segmentation, Gan의 모든 분야를 공부한다.
-- 매주 정해진 주제의 논문과 코드를 발표할 사람을 정하고 발표 후에는 리뷰를 작성해 블로그에 올릴 사람을 정한다.
+- 매주 정해진 주제의 논문을 발표할 사람을 정함 
+- 코드 구현은 모두가 해온다. 
+- 논문은 발표한 사람이 정리한 것을 블로그에 올린다. 
+- 각 코드에서 가장 설명과 구현이 잘 되어있는 코드를 블로그에 올린다. 
 - 블로그 작성자는 발표자를 제외하고 중복을 허용해서 추출한다.
 
 
@@ -31,7 +34,9 @@
 2주차 
 - U-Net
 - 참고자료
-    - https://www.youtube.com/watch?v=sSxdQq9CCx0
+    - 논문 설명 : https://www.youtube.com/watch?v=sSxdQq9CCx0
+    - 논    문 : https://arxiv.org/abs/1505.04597
+    - 코드 구현 : https://youtu.be/sSxdQq9CCx0
     
 - 논문 발표 : 김태종
 - 코드 발표 : 김선우
