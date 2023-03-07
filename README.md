@@ -30,7 +30,11 @@
 
 2주차 
 - U-Net
-
+- 참고자료
+    - https://www.youtube.com/watch?v=sSxdQq9CCx0
+    
+- 논문 발표 : 김태종
+- 코드 발표 : 김선우
 
 3주차
 - faster R-CNN
