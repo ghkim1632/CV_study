@@ -1,3 +1,5 @@
+![fig1](CV-Camp-LAB-from-Hell.png)
+
 # U-Net
 
 ## U-Net: Convolutional Networks for Biomedical Image Segmentation
