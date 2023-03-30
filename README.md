@@ -1,4 +1,5 @@
 # Computer_Vision_Study
+> Notion : https://modulabs.notion.site/CV-LAB-038ecfe50d72453bb3f671f3b7518b32
 
 
 ### 스터디 목표
@@ -16,10 +17,8 @@
 - 각 코드에서 가장 설명과 구현이 잘 되어있는 코드를 블로그에 올린다. 
 - 블로그 작성자는 발표자를 제외하고 중복을 허용해서 추출한다.
 
-
 ### 스터디할 모델 
-1주차  23.02.28
-- Resnet
+1주차 (Resnet)
 - 참고영상
     - https://youtu.be/drAN7gLA8sU
     - https://youtu.be/eSYoOwk31mM
@@ -31,8 +30,7 @@
 - 코드 발표 : 김태종
 - 리뷰 : 미정
 
-2주차 
-- U-Net
+2주차 (U-Net)
 - 참고자료
     - 논문 설명 : https://www.youtube.com/watch?v=sSxdQq9CCx0
     - 논    문 : https://arxiv.org/abs/1505.04597
@@ -41,21 +39,24 @@
 - 논문 발표 : 김태종
 - 코드 발표 : 김선우
 
-3주차
-- faster R-CNN
+3주차(faster R-CNN)
+- 논문 : https://arxiv.org/abs/1506.01497
+
+- 논문 발표 : 김가현
+- 코드 구현 : 조근혜
 
 
-4주차
-- GAN
+4주차(GAN)
+- 논문 : https://arxiv.org/abs/1406.2661
+
+- 논문 발표 : 조근혜
+- 코드 구현 : 임종혁
 
 
-5주차
-- DeepLabv3
+5주차(DeepLabv3)
 
 
-6주차
-- YOLO v1
+6주차(YOLO v1)
 
 
-7주차 
-- DCGAN
+7주차 (DCGAN)
