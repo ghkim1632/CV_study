@@ -2,7 +2,7 @@
 
 ## object detection 관련 개념  
 
-### - object detection의 2가지 방식
+-**object detection의 2가지 방식**
 
 1. **2-satge 방식**
     
@@ -19,11 +19,11 @@
     ex. YOLO
   
 
-### - **region proposal 방식**
+-**region proposal 방식**
 
 - 물체가 있을 법한 위치를 찾는 방법
     
-    <img src="Faster R-CNN images/untitled.png">
+    <img src="Faster R-CNN images/sliding window.png">
 
 
     - sliding window
@@ -32,7 +32,7 @@
     
         ex. Faster R-CNN
     
-    <img src="Faster R-CNN images/untitled 1.png">
+    <img src="Faster R-CNN images/selective search.png">
     
     - selective search
     
@@ -41,17 +41,17 @@
         ex. R-CNN, Fast R-CNN
     
 
-### 성능 평가 지표
+-**성능 평가 지표**
 
 - 두 바운딩 박스가 겹치는 비율인 iou(Intersection over Union)을 성능 평가 지표로 사용하는 경우가 많다.
 - 예를 들어 
 mAP@0.5이면 정답과 예측의 IoU가 50%이상일 때 정답으로 판정했다는 의미이다.
 
-**NMS(Non Maximum Suppression)**
+-**NMS(Non Maximum Suppression)**
 
 - 여러개의 바운딩 박스가 겹쳐있는 경우 하나로 합치는 방법으로, 제일 큰 것을 제외하고 나머지를 제거한다.
 
-**RoI pooling**
+-**RoI pooling**
 
 <img src="Faster R-CNN images/Untitled 3.png">
 
