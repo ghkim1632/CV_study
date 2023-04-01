@@ -23,7 +23,7 @@
 
 - 물체가 있을 법한 위치를 찾는 방법
     
-    ![Untitled](Faster%20R-CNN%2011cbd9cf8e85425592e9811431aad308/Untitled.png)
+    <img src="Faster R-CNN images/untitled.png">
 
 
     - sliding window
@@ -32,7 +32,7 @@
     
         ex. Faster R-CNN
     
-    ![Untitled](Faster%20R-CNN%2011cbd9cf8e85425592e9811431aad308/Untitled%201.png)
+    <img src="Faster R-CNN images/untitled 1.png">
     
     - selective search
     
@@ -53,7 +53,7 @@ mAP@0.5이면 정답과 예측의 IoU가 50%이상일 때 정답으로 판정했
 
 **RoI pooling**
 
-![Untitled](Faster%20R-CNN%2011cbd9cf8e85425592e9811431aad308/Untitled%203.png)
+<img src="Faster R-CNN images/Untitled 3.png">
 
 - 고정된 크기의 feature vector를 찾기 위해서 임의로 나눈 RoI 영역에 대해서 max pooling 진행하는 방식이다.
 
@@ -67,7 +67,7 @@ Faster R-CNN은 물체가 있을 법한 위치를 찾고(region proposal) 각 �
 
 기존의 Fast R-CNN를 발전시킨 모델로, region proposal 단계에서 소요되는 시간을 단축하기 위해서 Region Proposal Network를 제안하였다.
 
-![Untitled](Faster%20R-CNN%2011cbd9cf8e85425592e9811431aad308/Untitled%204.png)
+<img src="Faster R-CNN images/Untitled 4.png">
 
 ## **Abstract**
 
@@ -153,7 +153,7 @@ Faster R-CNN에서 주목할 부분들은 **RPN**, **anchor box**, **RPNs와 Fas
 
 **1. Region Proposal Networks**
 
-![61AE479F-7FE2-42DD-9CD0-9D9E216DAAF0.jpeg](Faster%20R-CNN%2011cbd9cf8e85425592e9811431aad308/61AE479F-7FE2-42DD-9CD0-9D9E216DAAF0.jpeg)
+<img src="Faster R-CNN images/61AE479F-7FE2-42DD-9CD0-9D9E216DAAF0.jpeg">
 
 RPN에서는 마지막 conv layer의 conv feature map output 위로 samll net를 sliding window 방식으로 연산한다. 각 위치에 대해 intermediate feature를 뽑고 classification과 regression을 진행한다. 여기서의 classification은 물체가 있는지 없는지(object/background)를 분류하는 문제이고, regression은 region proposal의 좌표를 구한다.
 
@@ -188,17 +188,18 @@ RPN에서는 k개의 anchor box 이용한다. Sliding window 방식으로 region
 
 각 anchor는 object, background로 classification된다. object로 분류하는 기준은 IoU값 최대일 때(모든 case에서 0.7이하일 때 대비) 또는  IoU가 0.7이상일 때이다. IoU가 0.3이하일 때는 background로 분류하였다.
 
-![6E29C473-0C90-412B-AAFE-F0CF349DB49A.jpeg](Faster%20R-CNN%2011cbd9cf8e85425592e9811431aad308/6E29C473-0C90-412B-AAFE-F0CF349DB49A.jpeg)
+<img src="Faster R-CNN images/loss function 1.jpeg">
 
 + cls loss: log loss(NLL). object vs not object
 
 + reg loss: smooth L1
 
-    ![Untitled](Faster%20R-CNN%2011cbd9cf8e85425592e9811431aad308/Untitled%205.png)
+    <img src="Faster R-CNN images/smooth l1.png">
 
     Loss function에서 '+' 뒤편의 식은 anchor가 positive일 때만 activated된다는 것을 보여준다.
 
-    ![0AC21E8F-F86E-4332-8C59-40ECA16CC606.jpeg](Faster%20R-CNN%2011cbd9cf8e85425592e9811431aad308/0AC21E8F-F86E-4332-8C59-40ECA16CC606.jpeg)
+    <img src="Faster R-CNN images/loss function 2.jpeg">
+
 
     ```python
     ### Object or not loss
