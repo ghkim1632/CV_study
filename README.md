@@ -54,9 +54,14 @@
 
 
 5주차(DeepLabv3)
+- 논문 :https://arxiv.org/pdf/1412.7062.pdf
+- 논문 발표 : 조근혜
+- 코드 구현 : 김가현
 
 
 6주차(YOLO v1)
-
+- 논문 : https://arxiv.org/pdf/1506.02640.pdf
+- 논문 발표 : 김선우
+- 코드 구현 : 김가현
 
 7주차 (DCGAN)
